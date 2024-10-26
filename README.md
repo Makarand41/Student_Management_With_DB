@@ -20,12 +20,12 @@ A Spring Boot REST API for managing student records using CRUD operations. This 
 
 4. Update Student: Send a PUT request to http://localhost:8080/api/students/{id} with the updated JSON body (replace {id} with the actual student ID):
 
-json
-Copy code
+```
 {
   "firstName": "Jane",
   "lastName": "Doe"
 }
+```
 
 5. Delete Student by ID: Send a DELETE request to http://localhost:8080/api/students/{id} (replace {id} with the actual student ID).
 
