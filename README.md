@@ -10,12 +10,13 @@ A Spring Boot REST API for managing student records using CRUD operations. This 
 
 3. Create a New Student: Send a POST request to http://localhost:8080/api/students with the following JSON body:
 
-json
-Copy code
+
+```
 {
   "firstName": "John",
   "lastName": "Doe"
 }
+```
 
 4. Update Student: Send a PUT request to http://localhost:8080/api/students/{id} with the updated JSON body (replace {id} with the actual student ID):
 
